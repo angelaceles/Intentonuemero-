@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    height: 100px;
+    height: 10%;
+    background: rgb(224, 201, 96);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.head{
+    text-align: center;
+    padding: 0;
+    height: 20%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(94, 85, 34, 0.5);
+}
+.h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgb(11, 11, 17);
+}
+.h1+p{
+    color: rgb(11, 11, 17);
+}
+.h2{
+    font-size: 100px;
+    margin-bottom: 15px;
+    color: rgb(228, 228, 240);
+}
+.px{
+    text-align: center;
+    color: darkorange;
+    font-size: 50px;
+}
+.cafe{
+    text-align: center;
+    color: rgb(131, 36, 53);
+}
+.sec{
+    background: rgb(224, 201, 96);
+}
+.bocadillo{
+    background: rgb(224, 200, 96);
+    text-align: center;
+    color: rgb(175, 104, 104);
+    font-size: 50px;
+}
+.acompaña{
+    height: 10%;
+}

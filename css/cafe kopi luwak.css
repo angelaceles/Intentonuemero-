@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 70vh;
+    color: white;
+    background-image: linear-gradient(to top, rgba(255, 8, 70, 0.5) 0%, rgba(255, 177, 153, 0.5) 100%), url(../img/cafe\ caro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.titulo{
+    text-align: center;
+    padding: 2%;
+}
+.copy{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+h2{
+    padding: 3%;
+    text-align: center;
+    color: rgb(32, 60, 95);
+}
+.card-header{
+    background: rgb(116, 221, 221);
+    font-size: 30px;
+    color: rgb(68, 28, 68);
+}
+.card-body{
+    font-size: 20px;
+    background: rgb(99, 39, 35);
+}
+.card-img-top{
+    height: 90vh;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(239, 243, 243);
+}
+.card-text{
+    color: rgb(239, 243, 243);
+}

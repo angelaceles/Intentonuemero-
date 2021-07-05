@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(163, 189, 237, 0.5) 0%, rgba(105, 146, 199, 0.5) 100%), url(../img/Tipos-de-Granos-de-cafe-e1586659271330.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.titulo{
+    text-align: center;
+    padding: 2%;
+}
+.copy{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+h2{
+    padding: 3%;
+    text-align: center;
+    color: rgb(32, 60, 95);
+}
+.card-header{
+    background: rgb(116, 221, 221);
+    font-size: 30px;
+    color: rgb(68, 28, 68);
+}
+.card-footer-x{
+    text-align: center;
+    height: 5vh;
+    color: rgb(254, 255, 254);
+    background: darkorange;
+}
+.card-body{
+    font-size: 20px;
+    background: rgb(143, 230, 230);
+}
+.card-footer{
+    height: 50vh;
+    background: darkorange;
+}

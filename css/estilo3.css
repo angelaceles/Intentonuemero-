@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+header{
+    padding: 10%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 128, 119, 0.5) 0%, rgba(255, 133, 122, 0.5) 0%, rgba(255, 140, 127, 0.5) 21%, rgba(249, 144, 133, 0.5) 52%, rgba(207, 85, 107, 0.5) 78%, rgba(177, 42, 91, 0.5) 100%),url(../img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+.subtitulo{
+    text-align: center;
+    font: 300;
+    color: rgb(109, 83, 78);
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-servicio img{
+    width: 550px;
+}
+.checklist-servicio{
+    width: 50%;
+}
+.service{
+    margin-bottom: 50px;
+}
+.n-srvice{
+    text-align: center;
+    margin-bottom: 20px;
+    color: tomato;
+}

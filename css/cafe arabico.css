@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 70vh;
+    background-image: linear-gradient(to top, rgba(150, 251, 195, 0.5) 0%, rgba(249, 245, 134, 0.5) 100%), url(../img/variedades-cafe-arabica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.titulo{
+    text-align: center;
+    padding: 5%;
+}
+.copy{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+h2{
+    padding: 3%;
+    text-align: center;
+    color: rgb(77, 190, 77);
+}
